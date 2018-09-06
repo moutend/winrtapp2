@@ -1,9 +1,4 @@
-﻿//
-// pch.h
-// Header for platform projection include files
-//
-
-#pragma once
+﻿#pragma once
 
 #include <windows.h>
 #include <unknwn.h>
