@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "App.xaml.g.h"
 
-namespace winrt::winrtapp2::implementation {
+namespace winrt::HelloWorld::implementation {
   struct App : AppT<App> {
     App();
     void OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs const&);

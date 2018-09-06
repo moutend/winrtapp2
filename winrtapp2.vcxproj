@@ -5,8 +5,8 @@
     <RequiredBundles>$(RequiredBundles);Microsoft.Windows.CppWinRT</RequiredBundles>
     <MinimalCoreWin>true</MinimalCoreWin>
     <ProjectGuid>{1d32bca6-bf13-4d9f-b13f-ee36f14634f2}</ProjectGuid>
-    <ProjectName>winrtapp2</ProjectName>
-    <RootNamespace>winrtapp2</RootNamespace>
+    <ProjectName>HelloWorld</ProjectName>
+    <RootNamespace>HelloWorld</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
@@ -64,7 +64,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <PackageCertificateKeyFile>winrtapp2_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>HelloWorld_TemporaryKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>1132EA939A7107B303D4D40ED6CE28778FC96409</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemDefinitionGroup>
@@ -108,7 +108,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="winrtapp2_TemporaryKey.pfx" />
+    <None Include="HelloWorld_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />

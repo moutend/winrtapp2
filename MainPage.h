@@ -2,7 +2,7 @@
 
 #include "MainPage.g.h"
 
-namespace winrt::winrtapp2::implementation {
+namespace winrt::HelloWorld::implementation {
   struct MainPage : MainPageT<MainPage> {
     MainPage();
     int32_t MyProperty();
@@ -11,7 +11,7 @@ namespace winrt::winrtapp2::implementation {
   };
 }
 
-namespace winrt::winrtapp2::factory_implementation {
+namespace winrt::HelloWorld::factory_implementation {
   struct MainPage : MainPageT<MainPage, implementation::MainPage> {
   };
 }

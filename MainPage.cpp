@@ -4,7 +4,7 @@
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 
-namespace winrt::winrtapp2::implementation {
+namespace winrt::HelloWorld::implementation {
   MainPage::MainPage() {
     InitializeComponent();
   }
