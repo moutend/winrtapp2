@@ -4,7 +4,6 @@
     <CppWinRTEnabled>true</CppWinRTEnabled>
     <RequiredBundles>$(RequiredBundles);Microsoft.Windows.CppWinRT</RequiredBundles>
     <MinimalCoreWin>true</MinimalCoreWin>
-    <ProjectGuid>{1d32bca6-bf13-4d9f-b13f-ee36f14634f2}</ProjectGuid>
     <ProjectName>HelloWorld</ProjectName>
     <RootNamespace>HelloWorld</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
